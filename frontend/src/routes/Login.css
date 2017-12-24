@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0;}
+
+.loginbox{
+    height: 100vh; overflow: hidden;
+    background-color:skyblue;
+}
+.login{
+    
+    width:450px; margin: 100px auto 0;
+    padding: 50px; background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

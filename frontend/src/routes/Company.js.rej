@@ -1,0 +1,23 @@
+diff a/frontend/src/routes/Company.js b/frontend/src/routes/Company.js	(rejected hunks)
+@@ -11,19 +11,16 @@
+         
+         this.state = {
+             compayArray : []
++        }
+     }
+-}
+     componentDidMount(){
+         
+-     
+-              
+-        
+         axios.get('http://localhost:4000/company')
+             .then((response)=>{
+             
+                 const data =  this.state.compayArray.concat(response.data.company)
+                 
+-                this.setState({companyArray : adta})
++                this.setState({companyArray : data});
+         });
+     }
+     

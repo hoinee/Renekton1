@@ -1,2 +1,19 @@
 # Renekton1
-채용사이트 카피
+FullStack web develop project
+
+## 개발 환경
+
+### 프론트엔드 (port 3000)
+- React
+- React-Router
+- Axios
+
+### 백엔드 (port 4000)
+- Node
+- Express
+- MVC
+- JSON
+
+### 통신방식
+- Restful API
+
